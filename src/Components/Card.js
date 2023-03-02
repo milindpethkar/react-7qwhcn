@@ -98,7 +98,7 @@ const Products = ({ handleSubmit }) => {
             <div className="p-3">
               <div>
                 <h1>{item.name}</h1>
-                <h5 className="text-xs  ">{item.value}</h5>
+                <h5 className="text-xs h-12 ">{item.value}</h5>
               </div>
               <hr></hr>
               <div className="flex justify-between">
