@@ -44,7 +44,7 @@ function App() {
               <Route path="/Cart" element={<Cart passData={passData} />} />
               <Route path="/form" element={<Form />} />
             </Routes>
-            <Cart/>
+           <div className='w-0 invisible mb-6 md:visible md:w-1/2'> <Cart/></div>
           </div>
         </CartProvider>
 
