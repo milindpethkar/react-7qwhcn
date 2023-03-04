@@ -284,7 +284,7 @@ export default function Cart(props, { HandleSubmit }) {
               </div>
             </div> */}
             <div></div>
-            <div className="border border-gray-600 p-5 rounded-sm shadow-lg">
+            <div className="border border-gray-300 p-5 rounded-lg shadow-lg ">
               <div className="text-center flex  gap-5 ">
                 <img className="w-24 h-24 rounded-sm" src={item.url} />
 
@@ -332,14 +332,14 @@ export default function Cart(props, { HandleSubmit }) {
       ))}
       <div>
         {' '}
-        <h1>
+        <h1 className='w-full mb-4 border border-white  bg-white dark:bg-gray-700 dark:border-white'>
           Cart total:
           {items.reduce(
             (total = 0, item) => total + item.quantity * item.price,
             0
           )}
         </h1>
-        <h5 onChange={buttonClickHandler}>Total:{totalItems}</h5>
+        <h5 class="w-full mb-4 border border-white rounded-lg bg-white dark:bg-gray-700 dark:border-white" onChange={buttonClickHandler}>Total:{totalItems}</h5>
         <Link to="/form">
           <button className="h-10  text-white bg-blue-700 w-48  my-5 rounded-sm text-center relative left-48 sm:w-24 ">
             Add to cart
