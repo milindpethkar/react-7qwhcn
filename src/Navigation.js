@@ -1,8 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useCart } from 'react-use-cart';
+import Form17 from './Form'
 
-const Navigation = () => {
+function  Navigation  () {
   const { totalUniqueItems} =
   useCart();
   return (
@@ -17,10 +18,13 @@ const Navigation = () => {
           </li>
          <div className='flex gap-10 py-1'> 
           <li> 
-            <Link to="/Products" className='text-white'>
+            <Link to="/Form" className='text-white px-5'>
               <button>
+            
+            <div  class="w-24 h-10 py-1.7  text-l font-bold text-center text-white bg-green-700 rounded-sm focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900 hover:text-lg">
+              Log in
+           </div>
                
-                <b class="">| Log In </b>
               </button>
             </Link></li>
          
