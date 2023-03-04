@@ -21,7 +21,7 @@ function  Navigation  () {
             <Link to="/Form" className='text-white px-5'>
               <button>
             
-            <div  class="w-24 h-10 py-1.7  text-l font-bold text-center text-white bg-green-700 rounded-sm focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900 hover:text-lg">
+            <div  class="w-24 h-10 py-1.7 border border-white text-l font-bold text-center text-white bg-green-700 rounded-sm focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900 hover:text-lg">
               Log in
            </div>
                

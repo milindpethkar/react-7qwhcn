@@ -9,7 +9,7 @@ const Down = () => {
         <div>
           <img src="https://pizzaonline.dominos.co.in/static/assets/logo_white.svg"></img>
           <div class="flex  justify-between place-content-right">
-            <div class="flex pt-1 grid content-center lg:space-x-5">
+            <div class="flex pt-1 grid lg:space-x-5">
               <Link to="/About">Disclaimer</Link>
               <Link to="#">Feedback</Link>
               <Link to="#">Privacy Policy</Link>
